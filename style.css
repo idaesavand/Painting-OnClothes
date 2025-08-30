@@ -1,14 +1,18 @@
 /* Omid: set initializer */
-*{
+* {
    margin: 0;
    box-sizing: border-box;
 }
+
 nav {
-   background-color: rgb(255,255,255);
-  
+
+   background-color: rgb(255, 255, 255);
+
 }
-nav>section{
- display: flex;
+
+nav>section {
+   display: flex;
+   flex-direction: row;
    justify-content: space-around;
 }
 
@@ -47,11 +51,13 @@ header {
 header .logo {
    font-size: 15px;
 }
+
 /* Omid: Logo section */
-header span, h2 span{
+header span,
+h2 span {
    background-color: #000;
    color: #fff;
-      padding: 5px;
+   padding: 5px;
 
 }
 
@@ -61,6 +67,7 @@ nav ul {
    display: flex;
    gap: 20px;
 }
+
 /* Omid: Reapted a settings */
 /* nav a {
    text-decoration: none;
@@ -115,6 +122,7 @@ form {
    flex-direction: column;
    max-width: 100%;
 }
+
 form input,
 form textarea {
    padding: 10px;
@@ -131,4 +139,25 @@ form button {
    cursor: pointer;
    max-width: 20%;
    margin: 10px;
+}
+/* Omid: media query  */
+@media(max-width: 800px) {
+   /* Omid: Menu Mobility */
+   header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   nav {
+      margin-top: 30px;
+   }
+
+   nav>section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+   }
+
 }
