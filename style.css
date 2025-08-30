@@ -5,23 +5,30 @@
 }
 nav {
    background-color: rgb(255,255,255);
+  
+}
+nav>section{
+ display: flex;
+   justify-content: space-around;
 }
 
-a {
-   margin-left: 20px;
-   padding: 5px;
+nav a {
+   /* Omid: for margin & paddings */
+   display: inline-block;
+   /* margin-left: 20px; */
+   padding: 15px;
    text-decoration: none;
    color: rgb(60, 60, 60);
 }
 
-a:hover {
+nav a:hover {
    color: rgba(110, 110, 110, 0.7);
 }
 
-section {
+/* section {
    width: 100;
    margin: 0%;
-}
+} */
 
 body {
    font-family: arial, sans-serif;
@@ -46,10 +53,10 @@ nav ul {
    display: flex;
    gap: 20px;
 }
-
-nav a {
+/* Omid: Reapted a settings */
+/* nav a {
    text-decoration: none;
-}
+} */
 
 .hero {
    position: relative;
