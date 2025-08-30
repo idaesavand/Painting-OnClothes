@@ -140,8 +140,10 @@ form button {
    max-width: 20%;
    margin: 10px;
 }
+
 /* Omid: media query  */
 @media(max-width: 800px) {
+
    /* Omid: Menu Mobility */
    header {
       display: flex;
