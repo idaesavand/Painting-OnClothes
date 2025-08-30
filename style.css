@@ -48,12 +48,13 @@ header .logo {
    font-size: 15px;
 }
 /* Omid: Logo section */
-header span{
+header span, h2 span{
    background-color: #000;
    color: #fff;
       padding: 5px;
 
 }
+
 
 nav ul {
    list-style: none;
