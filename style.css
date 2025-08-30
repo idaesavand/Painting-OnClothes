@@ -47,6 +47,13 @@ header {
 header .logo {
    font-size: 15px;
 }
+/* Omid: Logo section */
+header span{
+   background-color: #000;
+   color: #fff;
+      padding: 5px;
+
+}
 
 nav ul {
    list-style: none;
@@ -57,10 +64,18 @@ nav ul {
 /* nav a {
    text-decoration: none;
 } */
-
+/* Omid: Hero Section with scalability  */
 .hero {
-   position: relative;
-   text-align: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url(pictures/Photos/5870503597190532011_120.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 80vh;
+   /* position: relative;
+   text-align: left; */
 }
 
 .hero img {
@@ -69,10 +84,10 @@ nav ul {
 }
 
 .hero-text {
-   position: absolute;
+   /* position: absolute;
    top: 40%;
-   left: 15%;
-   font-size: 70px;
+   left: 15%; */
+   font-size: xx-large;
    color: #d86db4;
 }
 
@@ -80,9 +95,9 @@ section {
    padding: 20px;
 }
 
-h2 {
+/* h2 {
    margin-bottom: 50px;
-}
+} */
 
 .gallery {
    display: grid;
